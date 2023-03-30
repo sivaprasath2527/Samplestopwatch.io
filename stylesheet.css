@@ -1,0 +1,144 @@
+/* Variabes  
+$orange: #ffa600;
+$grey:#f3f3f3;
+$white: #fff;
+$base-color:$orange ; */
+
+
+body {
+  margin-top: 50px;
+  background-color: rgb(18, 19, 19);
+  /* background-image: url(./download.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+/* .color {
+    background-color: yellow;
+} */
+
+
+/* Mixin's */
+@mixin transition {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+/* @mixin corners ($radius) {
+-moz-border-radius: $radius;
+-webkit-border-radius: $radius;
+border-radius: $radius; 
+-khtml-border-radius: $radius; 
+} */
+
+/* body {
+background:$base-color;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+height:100%;
+} */
+
+.wrapper {
+  width: 800px;
+  margin: 30px auto;
+  color: white;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 2.6em;
+  text-transform: uppercase;
+}
+
+#seconds,
+#tens {
+  font-size: 2em;
+}
+
+button {
+  /* @include corners (5px); */
+  background: base-color;
+  color: rgb(19, 18, 18);
+  border: solid 1px white;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 18px 10px;
+  width: 180px;
+  margin: 10px;
+  outline: none;
+  /* &:hover {
+	@include transition;
+	background:$white;
+	border: solid 1px $white;
+	color: $base-color;
+	} */
+}
+
+
+.stopwatch-action {
+  position: relative;
+  flex: 0 0 6.25rem;
+  margin: 0.3125rem;
+  width: 6.25rem;
+  height: 6.25rem;
+  padding-right: 0.25rem;
+  padding-left: 0.25rem;
+  background-color: #17a69d;
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  box-shadow: none;
+  line-height: 1.5;
+  font-size: 18px;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+.stopwatch-action1 {
+  position: relative;
+  flex: 0 0 6.25rem;
+  margin: 0.3125rem;
+  width: 6.25rem;
+  height: 6.25rem;
+  padding-right: 0.25rem;
+  padding-left: 0.25rem;
+  background-color: #17a69d;
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  box-shadow: none;
+  line-height: 1.5;
+  font-size: 18px;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+.stopwatch-action2 {
+  position: relative;
+  flex: 0 0 6.25rem;
+  margin: 0.3125rem;
+  width: 6.25rem;
+  height: 6.25rem;
+  padding-right: 0.25rem;
+  padding-left: 0.25rem;
+  background-color: #17a69d;
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  box-shadow: none;
+  line-height: 1.5;
+  font-size: 18px;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+.font-digit {
+  font-family: clockicons,sans-serif;
+}
